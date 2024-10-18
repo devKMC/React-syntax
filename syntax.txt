@@ -1,0 +1,33 @@
+
+### 기본적인 리액트를 정리하기 전에 우선 기본 개념을 알기
+
+# HTML (HyperText Markup Language)과 JSX (JavaScript XML)의 차이점
+
+1. JSX에서의 통합된 유연성
+    - JSX는 자바스크립트 문법과 혼합되어서동적으로 내용 변경 가능 
+    - Return문에서 조건부 렌더링이나 반복문을 JSX 안에서 사용
+    - HTML의 경우 <script> 안에 자바스크립트(동적) 안에 로직을 작성해야 함 즉 , HTML(정적) 언어
+
+2, JSX에서부터 최상위 요소를 필요
+    - HTML은 독립적으로 여러 요소를 사용 가능하지만 
+      JSX부터는 최상위 요소의 존재 필수
+
+3. 가독성과 유지보수성
+    - 동적인 UI를 만들때는 가독성 높은 코드 작성이 가능
+
+4. Class and Event
+    - JSX 부터는 class 가 아닌 className을 사용
+    - HTML의 경우 javascript를 문자열로 Event를 그대로 전달하지만
+      JSX의 경우 camelCase로 중괄호로 감싸서 Event를 전달
+
+5. CSS 인라인 스타일
+    - HTML : style="color: red; font-size: 16px;"
+    - JSX : style={style}
+
+6. 디버깅
+    - HTML 보다 디버깅이 보다 쉬움 (컴파일 시점에서)
+
+7. React AND JSX 
+    - UI를 효율적으로 관리하며 React의 상태 관리와 결합할 수 있음
+    - 웹 앱 만들때 효율적
+
